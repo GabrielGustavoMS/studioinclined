@@ -1,220 +1,213 @@
 /*Basic Reset*/
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 p.text-muted {
-    margin: 2em;
-
+  margin: 2em;
 }
 
 /*Navbar*/
 
 nav {
-    background-color: #0c0c0c;
-    padding: 0;
+  background-color: #0c0c0c;
+  padding: 0;
 }
 
 nav li {
-    
-    transition: 0.35s all ease;
+  transition: 0.35s all ease;
 }
-nav li{
-    padding: 20px 0;
-    margin-right: .5em;
+nav li {
+  padding: 20px 0;
+  margin-right: 0.5em;
 }
-
 
 nav.scrolled {
-    background-color: #0c0c0c;
-
+  background-color: #0c0c0c;
 }
 
 nav.scrolled li {
-    padding: 0;
+  padding: 0;
 }
 
 .navbar-brand {
-    padding: .9em 0;
-    margin-left: 2em;
+  padding: 0.9em 0;
+  margin-left: 2em;
 }
 
 nav.scrolled .navbar-brand {
-    padding: 0;
+  padding: 0;
 }
 
 /*Header*/
 #main-header {
-    padding: 350px;
+  padding: 350px;
 }
 
-@media(max-width:910px) {
-    #main-header {
-        padding: 300px;
-    }
+@media (max-width: 910px) {
+  #main-header {
+    padding: 300px;
+  }
 
-    nav li {
-       padding: 0;
-    }
-    
-    #projetoTop{
-        padding: 0;
-    }
-    
+  nav li {
+    padding: 0;
+  }
+
+  #projetoTop {
+    padding: 0;
+  }
 }
 
 /*Portifolio - Modals*/
 
 #portifolio {
-    margin: 200px auto 0 auto;
-
+  margin: 200px auto 0 auto;
 }
 #portifolio .portifolio-item {
-    display: block;
-    right: 0;
-    margin: 2% auto;
-    width: 96%;
-    max-height: 200px;
-    overflow: hidden;
+  display: block;
+  right: 0;
+  margin: 2% auto;
+  width: 96%;
+  max-height: 200px;
+  overflow: hidden;
 }
-#portifolio .portifolio-item img {}
+#portifolio .portifolio-item img {
+}
 
 #portifolio .portifolio-row {
-    margin: 20px auto;
+  margin: 20px auto;
 }
 #portifolio .portifolio-item .portifolio-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    cursor: pointer;
-    margin: 0 auto;
+  position: relative;
+  display: block;
+  max-width: 400px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 #portifolio .portifolio-item-carousel {
-    display: none;
-    width: 96%;
-    
+  display: none;
+  width: 96%;
 }
 .moda-content {
-    margin: 20px auto;
+  margin: 20px auto;
 }
 #portifolio .modal-footer {
-    text-align: center;
+  text-align: center;
 }
 
 /*Contact*/
 
 section#contact .form-group .form-control {
-    height: auto;
-    margin-bottom: 25px;
+  height: auto;
+  margin-bottom: 25px;
 }
 
 section#contact .form-group .form-control,
 #contact .form-group textarea.form-control {
-
-    padding: 20px;
+  padding: 20px;
 }
 
 section#contact .form-group textarea.form-control {
-    height: 248px;
-
+  height: 248px;
 }
 /*Rodapé*/
 
 footer {
-    background-color: #fff;
-    text-align: center;    
+  background-color: #fff;
+  text-align: center;
 }
-footer #footer-row{
-    padding: 50px 0;
+footer #footer-row {
+  padding: 50px 0;
 }
-footer ul.social-buttons li a,#perfil ul.social-buttons li a {
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+footer ul.social-buttons li a,
+#perfil ul.social-buttons li a {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
 }
 footer,
-footer li a, #perfil ul.social-buttons li a {
-    color: #0c0c0c;
+footer li a,
+#perfil ul.social-buttons li a {
+  color: #0c0c0c;
 }
 
 /*Mice & adaptações*/
-a:hover,#perfil ul.social-buttons li a:hover {
-    color: #af0f0f;!important
+a:hover,
+#perfil ul.social-buttons li a:hover {
+  color: #af0f0f !important;
 }
 .p1 {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 .p2 {
-    padding: 200px 0px;
+  padding: 200px 0px;
 }
-@media(max-width:1350px) {
-    .container {
-        width: 98%;
-        max-width: 98%;
-        overflow: hidden;
-        margin: auto;
-        padding: 0;
-    }
-    #contactform {
-        margin: auto;
-    }
-    .form-row {
-        margin: auto;
-    }
-    .p1,
-    .p2 {
-        padding: 50px 0;
-    }
-    #main-header {
-        padding: 150px 0;
-    }
-    #portifolio,
-    #portifolio div {
-        width: 100%;
-        padding: 0;
-    }
-    #mainNav {
-        overflow: hidden;
-    }
-    #projetoTop{
-        margin: 0;        
-    }
+@media (max-width: 1350px) {
+  .container {
+    width: 98%;
+    max-width: 98%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+  }
+  #contactform {
+    margin: auto;
+  }
+  .form-row {
+    margin: auto;
+  }
+  .p1,
+  .p2 {
+    padding: 50px 0;
+  }
+  #main-header {
+    padding: 150px 0;
+  }
+  #portifolio,
+  #portifolio div {
+    width: 100%;
+    padding: 0;
+  }
+  #mainNav {
+    overflow: hidden;
+  }
+  #projetoTop {
+    margin: 0;
+  }
 }
-@media(max-width:450px) {
-    #port {
-        display: none;
-    }
-    #portifolio .portifolio-item-carousel,
-    #portifolio .portifolio-item {
-        display: block;
-        margin: 2% auto;
-    }
+@media (max-width: 450px) {
+  #port {
+    display: none;
+  }
+  #portifolio .portifolio-item-carousel,
+  #portifolio .portifolio-item {
+    display: block;
+    margin: 2% auto;
+  }
 }
 /*Paralax - Bg Effects*/
 .paralax {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .paralax-bg1 {
-    background-image: url(../_img/header-bg.jpg);
+  background-image: url(../img/header-bg.jpg);
 }
 .paralax-bg2 {
-    background-image: url(../_img/contatact-bg.jpg);
+  background-image: url(../img/contatact-bg.jpg);
 }
 /*Font*/
 
-.text-heading{
-    @import url('https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap');
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 2em;
+.text-heading {
+  @import url('https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap');
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 2em;
 }
-.text-subheding{
-    @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
-    font-family: 'Niconne', cursive;
-    
+.text-subheding {
+  @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+  font-family: 'Niconne', cursive;
 }
