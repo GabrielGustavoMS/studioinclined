@@ -1,1 +1,2 @@
-# studioinclined
+# Studio Inclined
+![Preview](./preview.jpeg)
